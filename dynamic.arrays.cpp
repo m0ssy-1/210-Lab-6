@@ -28,10 +28,25 @@ int main() {
 
     cout << "data entry for the arayL: " << endl;
 
-    for (int i= 0; i < size; i++)
+    for (int i= 0; i < size; i++) {
 
     cout << "(sometihng)" << i << "(something)" << endl;
 
-    cin >> (arr + i) >> endl;
-    
+    cin >> *(arr + i);
+    }
+    cout << "Data entry complete." << endl;
+
+ }
+
+ void outputArrayData(double* arr, int size) {
+
+    cout << "somthing";
+
+    for (int i = 0; i < size; i__) {
+
+        cout << *(arr + i) << " something";
+
+        cout << endl;
+        
+    }
  }
